@@ -1,0 +1,125 @@
+
+body {
+    margin: 20 px 40px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}
+
+.wrapper {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    margin-bottom: 20px;
+}
+
+.redExample {
+    flex: 1;
+    background-color: red;
+}
+
+.blueExample {
+    flex: 1;
+    background-color: blue;
+}
+
+.emptyExample2 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+}
+
+.blueExample2 {
+    width: 80px;
+    background-color: blue;
+}
+
+.red3 {
+    width: 80px;
+    background-color: red;
+    
+}
+
+.red4 {
+    display: flex;
+    flex: 1;
+    flex-direction: row-reverse;
+    background-color: red;
+}
+
+.empty5 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.red5 {
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+
+.red6 {
+    display: flex;
+    background-color: red;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue6 {
+    width: 80px;
+    height: 60px;
+    background-color: blue;
+}
+
+.blue7{
+    display: flex;
+    flex: 1;
+    background-color: blue;
+}
+
+.blue7_2{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: transparent;
+}
+
+.green7{
+    display: flex;
+    flex: 1;
+    height: 20px;
+    background-color: green;
+}
+
+.empty{
+    display: flex;
+    flex: 1;
+    justify-content: space-between; 
+}
+
+.orange {
+    display: flex;
+    width: 80px;
+    background-color: orange;
+}
+
+.orange9{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly; 
+    background-color: orange;
+}
+
+.empty9 {
+    display: flex;
+    width: 30px;
+    background-color: green;
+}
+
